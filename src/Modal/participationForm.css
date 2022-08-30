@@ -1,0 +1,89 @@
+.modalForm {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0%);
+}
+
+.modalForm.active{
+    transform: scale(100%);
+}
+
+.modalFormContent {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    height: 520px;
+    width: 759px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-item {
+    margin: 20px;
+}
+
+.form-header {
+    padding: 20px;
+}
+
+.fio-input {
+    width: 601px;
+    height: 54px;
+}
+
+.mail-input {
+    width: 601px;
+    height: 54px;
+}
+
+input {
+    border-width: 1px;
+    border-color: #C3C3C3;
+    border-radius: 15px;
+
+    color: #282626;
+    background-color: #F9F9F9;
+
+    width: 561px;
+    height: 54px;
+
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+input:focus {
+
+    background-color: #F9F9F9;
+}
+
+input.incorrect {
+    border-color: red;
+    border-width: 2px;
+    color: red;
+}
+
+.incorrect-sign {
+    color: red;
+
+}
+
+.send-btn {
+    background-color: #6C8474;
+    height: 58px;
+    width: 227px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    box-shadow: 0 0 2px black;
+    margin-top: 40px;
+}
+
